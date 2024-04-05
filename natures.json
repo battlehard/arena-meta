@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Stoneheart",
+        "ability": "Immune to electricity-based attacks."
+    },
+    {
+        "name": "Swiftstream",
+        "ability": "Speed increases when raining."
+    },
+    {
+        "name": "Blazefury",
+        "ability": "Enhances fire-based attacks."
+    },
+    {
+        "name": "Stormborn",
+        "ability": "Faster and stronger during storms."
+    },
+    {
+        "name": "Tidal Might",
+        "ability": "Passive heals when field is wet."
+    },
+    {
+        "name": "Shadow Veil",
+        "ability": "Takes half damage from light-based attacks."
+    },
+    {
+        "name": "Solar Power",
+        "ability": "Heals slightly every turn during daylight."
+    },
+    {
+        "name": "Moon's Blessing",
+        "ability": "Increases critical hit rate at night."
+    },
+    {
+        "name": "Windwalker",
+        "ability": "Dodges more easily."
+    },
+    {
+        "name": "Earthbind",
+        "ability": "Cannot be knocked airborne."
+    },
+    {
+        "name": "Frostshield",
+        "ability": "Reduces damage from fire-based attacks."
+    },
+    {
+        "name": "Inferno Soul",
+        "ability": "Immune to fire-based attacks, but weak to water."
+    },
+    {
+        "name": "Nature's Guardian",
+        "ability": "Heals when standing on grass."
+    },
+    {
+        "name": "Thunderclap",
+        "ability": "Electric attacks can stun the opponent."
+    },
+    {
+        "name": "Abyssal Void",
+        "ability": "Immune to mind-controlling effects."
+    },
+    {
+        "name": "Crystal Scales",
+        "ability": "Reflects a portion of physical damage."
+    },
+    {
+        "name": "Phantom Whisper",
+        "ability": "Can become intangible to avoid damage."
+    },
+    {
+        "name": "Iron Will",
+        "ability": "Immune to fear and intimidation."
+    },
+    {
+        "name": "Celestial Light",
+        "ability": "Can dispel darkness and illusions."
+    },
+    {
+        "name": "Venom Touch",
+        "ability": "Poisons the attacker on physical contact."
+    }
+]

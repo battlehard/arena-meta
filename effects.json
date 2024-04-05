@@ -1,0 +1,68 @@
+[
+    {
+        "name": "applyDamage",
+        "description": "Applies damage to a target, considering defense.",
+        "parameters": [
+            "target",
+            "amount"
+        ],
+        "logic": "Subtract amount from target's health, considering target's defense stat."
+    },
+    {
+        "name": "heal",
+        "description": "Heals the target.",
+        "parameters": [
+            "target",
+            "amount"
+        ],
+        "logic": "Add amount to target's health, not exceeding max health."
+    },
+    {
+        "name": "applyStatusEffect",
+        "description": "Applies a status effect to the target.",
+        "parameters": [
+            "target",
+            "statusEffect",
+            "duration"
+        ],
+        "logic": "Add statusEffect to target's status effects with duration."
+    },
+    {
+        "name": "modifyStat",
+        "description": "Modifies a stat of the target temporarily.",
+        "parameters": [
+            "target",
+            "stat",
+            "modifier",
+            "duration"
+        ],
+        "logic": "Modify target's stat by modifier for duration turns."
+    },
+    {
+        "name": "fieldHeal",
+        "description": "Applies passive healing to all allies on the field over a duration.",
+        "parameters": [
+            "allies",
+            "amount",
+            "duration"
+        ],
+        "logic": "Each turn, add amount to each ally's health for duration turns, not exceeding max health."
+    },
+    {
+        "name": "cleanseStatus",
+        "description": "Removes negative status effects from the target.",
+        "parameters": [
+            "target"
+        ],
+        "logic": "Remove all negative status effects from target."
+    },
+    {
+        "name": "applyFieldEffect",
+        "description": "Changes the environmental conditions of the battlefield.",
+        "parameters": [
+            "fieldEffect",
+            "duration"
+        ],
+        "logic": "Apply fieldEffect to the battlefield for duration turns, affecting all entities."
+    }
+]
